@@ -1,0 +1,46 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+table:nth-child(odd){
+ display: inline-block;
+  margin: 25px;
+  padding: auto;
+  height: 100px;
+  width: 100px;
+ background-color: #2cd64d;
+ border: 4px solid #f4591c;
+}
+table:nth-child(even){
+ display: inline-block;
+  margin: 25px;
+  padding: auto;
+  height: 100px;
+  width: 100px;
+ background-color: #f0571c;
+ border: 4px solid #4dde6b;
+}
+
+div:nth-child(odd){
+ display: center;
+  margin: 27px;
+  padding: auto;
+  height: 35px;
+  width: 35px;
+  border-radius: 2px;
+ background-color: #2cd64d;
+}
+
+/* ========= Neveikia nes man randa tik kaip viena div nezinau kaip be klasiu padaryti kad butu daugiau ju nei viena  :( viskas gerai kai div nera table viduje tada man ji eina keisti pvz kaip lyginiai nelyginiai bet kai table viduje rodo kaip viena elementa  ================ */
+
+div:nth-child(even){
+ display: center;
+  margin: 27px;
+  padding: auto;
+  height: 35px;
+  width: 35px;
+  border-radius: 2px;
+ background-color: #4dde6b;
+}

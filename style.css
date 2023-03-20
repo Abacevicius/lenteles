@@ -1,0 +1,70 @@
+*{
+font-family: 'Poppins', sans-serif;
+}
+body{
+ background-image: url(./codeacademylogo.jpg);
+ background-position:top;
+background-size: cover;
+ background-repeat: no-repeat;
+ /* background-size: cover; */
+}
+.dropdown{
+ left: 50% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 0) !important;
+ align-items: center;
+width: auto;
+padding: 10px;
+}
+h1 {
+ text-align: center;
+ text-shadow: 1px 1px black;
+}
+h1:hover{
+ transform: scale(1.2);
+ transition: 1.1s;
+}
+#dropdownMenuButton1 {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  background-color: transparent;
+  color: black;
+  border-radius: 20px;
+ }
+ ul.dropdown-menu{
+  justify-content: center;
+   text-align: center;
+   align-items: center;
+   width: 50%;
+   background-color: transparent;
+   border-radius: 20px;
+ }
+ .dropdown-item{
+  border-radius: 20px;
+ }
+.btn{
+border: solid;
+align-items: center;
+width: 50%;
+border: none;
+}
+li{
+ justify-content: center;
+ text-align: center;
+}
+a{
+ font-family: sans-serif;
+}
+.social{
+position: relative;
+}
+.fa-brands{
+ font-size: 20px;
+}
+.fa-brands:hover{
+transform: scale(1.2);
+transition: .4s;
+}

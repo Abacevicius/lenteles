@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Prompt:wght@100;200;300;400&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+  /* color: white; */
+}
+table{
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+table, th, td{
+  border: 2px solid white;
+}
+th, td{
+  padding: 20px;
+ text-align: left;
+ color: #ffebff;
+}
+th{
+  background-color: #84236d;
+  color: #fff5ff;
+  font-size: 30px;
+}
+tr:nth-child(odd) td:nth-child(1n){
+  background-color: #ad5694;
+}
+tr:nth-child(even) td:nth-child(1n){
+  background-color: #f37ece;
+}
+
